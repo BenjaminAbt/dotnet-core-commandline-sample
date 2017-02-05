@@ -15,6 +15,26 @@ Made with..
 
 .. should run on all .NET Core platforms.
 
+## usage
+
+```bash
+dotnet .\src\dotnet-core-commandline-sample\bin\Debug\netcoreapp1.1\dotnet-core-commandline-sample.dll
+```
+
+or with parameters
+
+```bash
+dotnet .\src\dotnet-core-commandline-sample\bin\Debug\netcoreapp1.1\dotnet-core-commandline-sample.dll --name YourName 
+dotnet .\src\dotnet-core-commandline-sample\bin\Debug\netcoreapp1.1\dotnet-core-commandline-sample.dll -n YourName -o Option1 -o Option2 -o Option3
+dotnet .\src\dotnet-core-commandline-sample\bin\Debug\netcoreapp1.1\dotnet-core-commandline-sample.dll --force
+```
+
+## publish
+
+Run `dotnet publish -c Release`
+
+This sample produces a dll file for x-plat usage `src\dotnet-core-commandline-sample\bin\Release\netcoreapp1.1\dotnet-core-commandline-sample.dll` and a executable file for Win7 x64 `src\dotnet-core-commandline-sample\bin\Release\netcoreapp1.1\win7-x64\publish\dotnet-core-commandline-sample.exe`
+
 ## LICENSE
 
 
